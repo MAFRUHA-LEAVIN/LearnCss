@@ -39,8 +39,16 @@ position: relative;
 padding-top: 100px;
 }
 .middle-container{
-
+background-color: ;
 }
 .botom-contaimer{
 
+}
+.soft-skills{
+  width: 150px;
+  height: 150px;
+}
+.tech-skills{
+  width: 150px;
+  height: 150px;
 }
