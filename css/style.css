@@ -24,13 +24,23 @@ img{
 
 }
 .top-cloud{
-  position: relative;
-  margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 400px;
+  position: absolute;
+ right: 800px;
+ top: 50px;
 }
 .bottom-cloud{
   position: absolute;
 margin-left: 200px;
 margin-bottom:300px ;
+}
+.top-container{
+background-color: #A6DCEF;
+position: relative;
+padding-top: 100px;
+}
+.middle-container{
+
+}
+.botom-contaimer{
+
 }
