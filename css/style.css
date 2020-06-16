@@ -2,6 +2,7 @@
 body{
   margin: 0px;
   text-align: center;
+  color: #333a39;
   font-family: 'Merriweather', serif;
 }
 h1{
@@ -15,24 +16,38 @@ h1{
 h2{
   color:   #74b6cc ;
   font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
 }
 h3{
   color:   #74b6cc ;
   font-family: 'Montserrat', sans-serif;
 }
+p{
+  line-height: 2;
+}
 
 div{
-background-color:  white;
+background-color:  ;
  
 }
 img{
   position: relative;
 
 }
+hr{
+  border: dotted rgb(245, 186, 237) 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
 .top-cloud{
   position: absolute;
  right: 800px;
  top: 50px;
+}
+.intro{
+  width: 170px;
+  margin: auto;
 }
 .bottom-cloud{
   position: absolute;
@@ -45,27 +60,40 @@ position: relative;
 padding-top: 100px;
 }
 .middle-container{
-background-color: ;
+background-color:white ;
+margin:100px auto 100px auto ;
 }
-.botom-contaimer{
+.bottom-container{
+  background-color: #A6DCEF;
+ padding-bottom: 10px;
+ padding-top: 20px;
 
+ line-height: 3;
 }
 .soft-skills{
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   float: right;
   margin-right: 15px;
  
 }
 .tech-skills{
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   float:  left;
   margin-right: 30px;
   
 }
 a{
   color:   #74b6cc;
+  font-family: 'Montserrat', sans-serif; 
+  margin:10px 20px ;
+  text-decoration: none;
+ 
+
+}
+a:hover{
+  color: rgb(245, 186, 237);
 }
 .p1{
   font-weight: normal;
@@ -75,7 +103,18 @@ a{
 .skill-row{
   width: 50%;
   margin: auto;
-  margin: 100px auto 100px auto;
+  margin: 70px auto 100px auto;
   text-align: left;
-  line-height: 2;
+  
+}
+.pdot{
+ font-size: 40px;
+ color:  rgb(245, 186, 237);
+}
+.p3{
+  color:whitesmoke;
+}
+.contact-massage{
+  width: 26%;
+  margin: 100px auto 100px auto;
 }
