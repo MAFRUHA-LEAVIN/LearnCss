@@ -5,19 +5,24 @@ body{
   font-family: 'Merriweather', serif;
 }
 h1{
-  font-size: 40px;
+  font-size: 60px;
+  color:   #74b6cc ;
   margin-top: 0px;
+  line-height: 2;
   font-family: 'Sacramento', cursive;
   
 }
 h2{
+  color:   #74b6cc ;
   font-family: 'Montserrat', sans-serif;
 }
 h3{
+  color:   #74b6cc ;
   font-family: 'Montserrat', sans-serif;
 }
+
 div{
-background-color: #A6DCEF;
+background-color:  white;
  
 }
 img{
@@ -48,8 +53,29 @@ background-color: ;
 .soft-skills{
   width: 150px;
   height: 150px;
+  float: right;
+  margin-right: 15px;
+ 
 }
 .tech-skills{
   width: 150px;
   height: 150px;
+  float:  left;
+  margin-right: 30px;
+  
+}
+a{
+  color:   #74b6cc;
+}
+.p1{
+  font-weight: normal;
+  color:   #74b6cc;
+  font-size: 22px;
+}
+.skill-row{
+  width: 50%;
+  margin: auto;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
